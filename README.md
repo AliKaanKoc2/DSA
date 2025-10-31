@@ -1,4 +1,4 @@
-# DSA210 Individual Project: "Analysis of the Impact of COVID-19 on Online Shopping Behavior and Product Category Demand"
+# DSA210 Individual Project: Analysis of the Impact of COVID-19 on Online Shopping Behavior and Product Category Demand
 
 **DSA210 Individual Project - Sabancı University, Fall 2025-2026**
 
@@ -54,7 +54,7 @@ A statistical significance threshold of α = 0.05 will be used when evaluating t
 ---
 
 ## Project Goal 🎯
-The aim of this project is to examine the impact of the pandemic on online shopping demand across multiple product categories and countries. The project compares the periods before,during, and after the pandemic to measure changes in consumer demand over time and to determine which product categories have experienced the most significant shifts. It also examines the influence of lockdown restrictions on demand fluctuations and evaluates whether online shopping behavior remained elevated after restrictions ended. The results will be supported with visual analysis, statistical testing, and machine learning models to give a clearer picture of how digital shopping habits were altered during this period.
+The aim of this project is to examine the impact of the pandemic on online shopping demand across multiple product categories and countries. The project compares the periods before, during, and after the pandemic to measure changes in consumer demand over time and to determine which product categories have experienced the most significant shifts. It also examines the influence of lockdown restrictions on demand fluctuations and evaluates whether online shopping behavior remained elevated after restrictions ended. The results will be supported with visual analysis, statistical testing, and machine learning models to give a clearer picture of how digital shopping habits were altered during this period.
 
 ---
 
