@@ -10,20 +10,26 @@
 
 ## 📌 Contents
 1. [Overview](#overview-)
-2. [Research Question & Sub-Questions](#research-question--sub-questions-)
-3. [Hypothesis](#hypothesis-)
-4. [Project Goal](#project-goal-)
-5. [Data Collection](#data-collection-)
-6. [Data Sources](#data-sources-)
-7. [Expected Outcomes](#expected-outcomes-)
-
+2. [Motivation](#motivation-)
+3. [Research Question & Sub-Questions](#research-question--sub-questions-)
+4. [Hypothesis](#hypothesis-)
+5. [Project Goal](#project-goal-)
+6. [Data Collection](#data-collection-)
+7. [Data Sources](#data-sources-)
+8. [Expected Outcomes](#expected-outcomes-)
+   
 ---
 
 ## Overview 📝
 This project investigates the impact of the COVID-19 pandemic on global online shopping demand, focusing on fluctuations in purchasing behavior across various product categories. By analyzing daily purchase quantities and their sales values, the study aims to reveal how consumer behavior shifted during the pandemic period. The comparison between pre-pandemic, pandemic, and post-pandemic phases will help determine whether the alterations in online shopping demand were temporary responses to lockdown restrictions or a longer-term shift in online consumer habits.
 
 ---
+## Motivation 💡
 
+As a data science student, I am interested in how major global events influence online shopping habits and everyday decision-making. The COVID-19 pandemic created one of the most significant shifts in consumer habits, rapidly increasing online shopping dependence across the world. Like many households, mine also began relying heavily on digital platforms for both essential and non-essential purchases during lockdown periods.
+Studying this shift will help me explore how consumer preferences change under disruptive conditions using data-driven analysis.
+
+---
 ## Research Question & Sub-Questions 🔍
 
 **Research Question:**
