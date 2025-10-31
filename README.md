@@ -30,7 +30,7 @@ As a data science student, I am interested in how major global events influence 
 Studying this shift will help me explore how consumer preferences change under disruptive conditions using data-driven analysis.
 
 ---
-## Research Question & Sub-Questions 🔍
+## Research Question & Sub-Questions 
 
 **Research Question:**
 
