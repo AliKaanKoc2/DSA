@@ -19,7 +19,7 @@
 ---
 
 ## Overview 
-This project examines the impact of the COVID-19 pandemic on global online shopping practices, mainly focusing on fluctuations in purchasing behavior across various product categories. By analyzing daily purchase counts and products prices, i expect to understand how consumer behavior shifted during the pandemic period. The comparison between 3 periods will show if the lockdowns were one of the leading reason why people started shopping online on a greater scale, and if the shift and the scale remained the same after the lockdowns were lifted.
+This project examines the impact of the COVID-19 pandemic on global online shopping practices, mainly focusing on fluctuations in purchasing behavior across various product categories. By analyzing daily purchase counts and products prices, i expect to understand how consumer behavior shifted during the pandemic period. The comparison between pre-pandemic, pandemic and post-pandemic periods will show if the lockdowns were one of the leading reasons why people started shopping online on a greater scale, and if the shift and the scale remained the same after the lockdowns were lifted.
 
 ---
 ## Motivation 
