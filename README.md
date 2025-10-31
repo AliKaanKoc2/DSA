@@ -10,17 +10,11 @@
 
 ## 📌 Contents
 1. [Overview](#overview)
-
 2. [Research Question & Sub-Questions](#research-question--sub-questions)
-
 3. [Hypothesis](#hypothesis)
-
-4. [Project Goals](#project-goals)
-
+4. [Project Goal](#project-goal)
 5. [Data Collection](#data-collection)
-
 6. [Data Sources](#data-sources)
-
 7. [Expected Outcomes](#expected-outcomes)
 
 ---
