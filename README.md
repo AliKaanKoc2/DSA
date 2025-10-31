@@ -1,10 +1,8 @@
 # DSA210 Individual Project: Analysis of the Impact of COVID-19 on Online Shopping Behavior and Product Category Demand
 
-**DSA210 Individual Project - Sabancı University, Fall 2025-2026**
+**DSA210 Individual Project - Fall 2025-2026 - Sabancı University**
 
 *Prepared by : Ali Kaan Koç*
-
-*Student ID: 33832*
 
 ---
 
@@ -21,13 +19,12 @@
 ---
 
 ## Overview 
-This project investigates the impact of the COVID-19 pandemic on global online shopping demand, focusing on fluctuations in purchasing behavior across various product categories. By analyzing daily purchase quantities and their sales values, the study aims to reveal how consumer behavior shifted during the pandemic period. The comparison between pre-pandemic, pandemic, and post-pandemic phases will help determine whether the alterations in online shopping demand were temporary responses to lockdown restrictions or a longer-term shift in online consumer habits.
+This project examines the impact of the COVID-19 pandemic on global online shopping practices, mainly focusing on fluctuations in purchasing behavior across various product categories. By analyzing daily purchase counts and products prices, i expect to understand how consumer behavior shifted during the pandemic period. The comparison between 3 periods will show if the lockdowns were the only reason why people started shopping online on a greater scale, and if the shift and the scale remained the same after the lockdowns were lifted.
 
 ---
 ## Motivation 
 
-As a data science student, I am interested in how major global events influence online shopping habits and everyday decision-making. The COVID-19 pandemic created one of the most significant shifts in consumer habits, rapidly increasing online shopping dependence across the world. Like many households, mine also began relying heavily on digital platforms for both essential and non-essential purchases during lockdown periods.
-Studying this shift will help me explore how consumer preferences change under disruptive conditions using data-driven analysis.
+As a data science student, I am interested in how major global events influence online shopping habits and everyday decision-making. The COVID-19 pandemic created one of the most significant shifts in consumer habits,which increased online shopping dependence.Like many households, mine also began relying heavily on digital platforms for both essential and non-essential purchases during lockdown periods. Studying this shift will help me explore how consumer preferences change under disruptive conditions using data-driven analysis.
 
 ---
 ## Research Question & Sub-Questions 
@@ -39,11 +36,9 @@ Studying this shift will help me explore how consumer preferences change under d
 
 **Sub-Questions**
 - Did online shopping demand rise significantly during the pandemic compared to the pre-pandemic period?
-- Which product categories experienced the strongest fluctuations in daily demand during lockdown restrictions?
-- Which countries showed the strongest rebound in online shopping demand after the pandemic period, and how does this compare to their pre-pandemic levels?
-- Is the presence of lockdown restrictions associated with noticeable changes in daily online shopping demand?
+- Which product categories experienced the strongest changes in daily demand during lockdown restrictions?
+- Do lockdown restrictions lead to noticeable changes in daily online shopping demand?
 - Did online demand remain permanently above pre-pandemic levels after restrictions were lifted?
-- Can patterns in daily demand help distinguish between essential and non-essential product categories?
 
 ---
 
@@ -60,7 +55,8 @@ A statistical significance threshold of α = 0.05 will be used when evaluating t
 ---
 
 ## Project Goal 
-The aim of this project is to examine the impact of the pandemic on online shopping demand across multiple product categories and countries. The project compares the periods before, during, and after the pandemic to measure changes in consumer demand over time and to determine which product categories have experienced the most significant shifts. It also examines the influence of lockdown restrictions on demand fluctuations and evaluates whether online shopping behavior remained elevated after restrictions ended. The results will be supported with visual analysis, statistical testing, and machine learning models to give a clearer picture of how digital shopping habits were altered during this period.
+The project investigates how the COVID-19 pandemic changed the way people buy products on online platforms globally, especially which types of categories products people bought more and how this varied from country to country.
+I also look at how lockdown restrictions affected the scale of online purchases and if people kept shopping online more often even though the restriction were lifted.
 
 ---
 
@@ -68,14 +64,14 @@ The aim of this project is to examine the impact of the pandemic on online shopp
 
 For this project, I collected the data from numerous publicly available sources to create a large and reliable dataset. Below, I explain the steps of my data collection process in detail:
 
-**1 - Searching for Relevant Data:**
+**1 - Looking for Relevant Data:**
 I searched multiple open data platforms for datasets on online sales and pandemic-related policies, using keywords like “online sales” and “COVID-19 lockdown data” to guide the process.
 
-**2 - Selecting Appropriate Datasets:**
+**2 - Selecting Usefull Datasets:**
 I focused on datasets that provided daily purchase activity, product category and country details during the analysis period. In order to connect shopping patterns with COVID-19 period, I also included a global pandemic dataset that shows the date range of lockdowns.
 
 **3 - Downloading and Storing Data:**
-The datasets were downloaded in CSV format from Kaggle and replaced in the repository. All of the necessary files will be cleaned and merged in the future.
+The datasets were downloaded in CSV format from Kaggle and stored in my project repository. All of the necessary files will be cleaned and merged in the future.
 
 ---
 ## Data Sources 
