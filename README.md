@@ -66,52 +66,39 @@ The aim of this project is to examine the impact of the pandemic on online shopp
 
 ## Data Collection 
 
-For the project, the data were collected from numerous publicly available sources to build a thorough and reliable dataset. The steps of data collection were as follows:
+For this project, I collected the data from numerous publicly available sources to create a large and reliable dataset. Below, I explain the steps of my data collection process in detail:
 
 **1 - Searching for Relevant Data:**
-
-Various open data platforms were reviewed to find datasets containing online sales transactions and pandemic-related government policy indicators. Keywords such as "online sales", "COVID-19 lockdown data" were used during search.
+I searched multiple open data platforms for datasets on online sales and pandemic-related policies, using keywords like “online sales” and “COVID-19 lockdown data” to guide the process.
 
 **2 - Selecting Appropriate Datasets:**
+I focused on datasets that provided daily purchase activity, product category and country details during the analysis period. In order to connect shopping patterns with COVID-19 period, I also included a global pandemic dataset that shows the date range of lockdowns.
 
-Datasets that included daily purchase activity, order dates within the target analysis period, and product category and country information were prioritized. In addition, a global COVID-19 policy tracker was selected to identify lockdown dates/periods.
-
-**3 - Downloading and Organizing Data:**
-   
-The datasets were downloaded in CSV format from Kaggle. To keep data organized, all files were stored in a structured directory, allowing easier access during the preprocessing and merging phases.
+**3 - Downloading and Storing Data:**
+The datasets were downloaded in CSV format from Kaggle and replaced in the repository. All of the necessary files will be cleaned and merged in the future.
 
 ---
 ## Data Sources 
 ### **1️ - Global Online Sales Dataset (2019)**
-- **Content:** Daily online order records with product category and geographic information.
-- **Usage in Project:** Provides insight into the immediate market conditions leading into the pandemic period.
+- **Content:** Product category, product purchase date, value of the product and country that it was purchased from.
+- **Usage in Project:** It will provide a solid foundation to the pre-pandemic period.
 - **Data:** `online_sales_dataset_for_2019.csv` [https://github.com/AliKaanKoc2/DSA210-COVID-Online-Shopping-Analysis/blob/main/online_sales_dataset_for_2019.csv]
 - **Source:** [https://www.kaggle.com/datasets/jacksondivakarr/online-shopping-dataset]
   
 ### **2️ - Global Online Sales Dataset (2020–2025)**
-- **Content:** Daily purchase activity including pandemic and transition to post-pandemic phases.
-- **Usage in Project:** Enables the analysis of pandemic-driven behavioral shifts and long-term recovery.
+- **Content:** Product category, item purchase date, value of the product and country that it was purchased from, information about review.
+- **Usage in Project:** It will be a baseline for pandemic and post-pandemic period.
 - **Data:** `online_sales_dataset_for_2020-2025.csv` [https://github.com/AliKaanKoc2/DSA210-COVID-Online-Shopping-Analysis/blob/main/online_sales_dataset_for_2020-2025.csv]
 - **Source:** [https://www.kaggle.com/datasets/yusufdelikkaya/online-sales-dataset]
 
 ### **3️ - COVID-19 Lockdown Policy Dataset**
-- **Content:** Daily national lockdown policy indicators (stay-at-home requirements).
-- **Key Variable:** `is_lockdown` (categorical scale measuring restriction severity)
-- **Usage in Project:** Allows investigation of how lockdown restrictions impacted online demand.
+- **Content:** Contains every countries case count, the strictness of the lockdown, the specific dates of the lockdown for all countries.
+- **Key Variable:** A binary (0-1) variable `is_lockdown` will be created and included in the merged csv files.
+- **Usage in Project:** The created variable will show the dates when the country had a lockdown.
 - **Data:** `covid_policy-lockdown_tracker.csv` [https://github.com/AliKaanKoc2/DSA210-COVID-Online-Shopping-Analysis/blob/main/covid_policy-lockdown_tracker.csv]
 - **Source:** [https://github.com/OxCGRT/covid-policy-tracker/blob/master/data/OxCGRT_nat_latest.csv]
 
-**Data Fields Planned for Use (Online Shopping Dataset)**
-- `OrderDate` → to segment pre-pandemic, pandemic, and post-pandemic phases
-- `Category` → to measure category-specific demand shifts
-- `Quantity` → to calculate daily demand levels
-- `Country` → to compare recovery patterns between regions
-
-**Data Field Planned for Use (COVID-19 Dataset)**
-- `C6_Stay_at_home_requirements` → converted to a binary `is_lockdown` indicator
-
 ---
 ## Expected Outcomes 
-- It is expected that online shopping demand will show a noticeable increase during the pandemic compared to the pre-pandemic period, especially in categories related to essential needs such as groceries and household products. Countries that faced longer or stricter lockdowns are anticipated to display sharper demand spikes and a slower return to normal levels.
+- I expect that online shopping trends will increase immensely compared to the pre-pandemic period, especially in categories linked to essential needs such as groceries and household products. Additionally, the alteration in human shopping habits will keep them making online purchases more compared to pre-Covid period.
 
-- The project also expects that demand will remain above pre-pandemic levels in the post-pandemic period, indicating a long-term shift toward digital purchasing behavior. Machine learning models are expected to identify patterns in daily demand that help distinguish between essential and non-essential product categories based on consumer response during the pandemic.
