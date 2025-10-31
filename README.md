@@ -79,20 +79,20 @@ The datasets were downloaded in CSV format from Kaggle. To keep data organized, 
 ### **1️⃣ Global Online Sales Dataset (2019)**
 - **Content:** Daily online order records with product category and geographic information.
 - **Usage in Project:** Provides insight into the immediate market conditions leading into the pandemic period.
-- **Data:** `online_sales_dataset_for_2019.csv`
+- **Data:** `online_sales_dataset_for_2019.csv` [https://github.com/AliKaanKoc2/DSA210-COVID-Online-Shopping-Analysis/blob/main/online_sales_dataset_for_2019.csv]
 - **Source:** [https://www.kaggle.com/datasets/jacksondivakarr/online-shopping-dataset]
   
 ### **2️⃣ Global Online Sales Dataset (2020–2025)**
 - **Content:** Daily purchase activity including pandemic and transition to post-pandemic phases.
 - **Usage in Project:** Enables the analysis of pandemic-driven behavioral shifts and long-term recovery.
-- **Data:** `online_sales_dataset_for_2020-2025.csv`
+- **Data:** `online_sales_dataset_for_2020-2025.csv` [https://github.com/AliKaanKoc2/DSA210-COVID-Online-Shopping-Analysis/blob/main/online_sales_dataset_for_2020-2025.csv]
 - **Source:** [https://www.kaggle.com/datasets/yusufdelikkaya/online-sales-dataset]
 
 ### **3️⃣ COVID-19 Lockdown Policy Dataset**
 - **Content:** Daily national lockdown policy indicators (stay-at-home requirements).
 - **Key Variable:** `is_lockdown` (categorical scale measuring restriction severity)
 - **Usage in Project:** Allows investigation of how lockdown restrictions impacted online demand.
-- **Data:** `covid_policy-lockdown_tracker.csv`
+- **Data:** `covid_policy-lockdown_tracker.csv` [https://github.com/AliKaanKoc2/DSA210-COVID-Online-Shopping-Analysis/blob/main/covid_policy-lockdown_tracker.csv]
 - **Source:** [https://github.com/OxCGRT/covid-policy-tracker/blob/master/data/OxCGRT_nat_latest.csv]
 
 **Data Fields Planned for Use (Online Shopping Dataset)**
