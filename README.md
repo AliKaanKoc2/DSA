@@ -34,7 +34,7 @@ Studying this shift will help me explore how consumer preferences change under d
 
 **Research Question:**
 
-How did global online shopping demand and category-level purchasing behavior change across the pre-pandemic, pandemic, and post-pandemic periods of COVID-19?
+- How did global online shopping demand and category-level purchasing behavior change across the pre-pandemic, pandemic, and post-pandemic periods of COVID-19?
 
 
 **Sub-Questions**
@@ -68,15 +68,15 @@ The aim of this project is to examine the impact of the pandemic on online shopp
 
 For the project, the data were collected from numerous publicly available sources to build a thorough and reliable dataset. The steps of data collection were as follows:
 
-1. **Searching for Relevant Data:**
+**1 - Searching for Relevant Data:**
 
 Various open data platforms were reviewed to find datasets containing online sales transactions and pandemic-related government policy indicators. Keywords such as "online sales", "COVID-19 lockdown data" were used during search.
 
-2. **Selecting Appropriate Datasets:**
+**2 - Selecting Appropriate Datasets:**
 
 Datasets that included daily purchase activity, order dates within the target analysis period, and product category and country information were prioritized. In addition, a global COVID-19 policy tracker was selected to identify lockdown dates/periods.
 
-3. **Downloading and Organizing Data:**
+**3 - Downloading and Organizing Data:**
    
 The datasets were downloaded in CSV format from Kaggle. To keep data organized, all files were stored in a structured directory, allowing easier access during the preprocessing and merging phases.
 
